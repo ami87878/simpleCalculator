@@ -1,0 +1,331 @@
+
+
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+
+}
+
+P{
+
+margin: 0;
+padding: 0;
+
+}
+
+button{
+
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.main{
+
+margin-top: 5rem ;
+margin-left:30rem;
+width: 24rem;
+height: 33rem;
+background-color: brown;
+position: relative;
+
+
+
+
+}
+
+.black{
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    height:3rem;
+    font-size:32px;
+    
+
+
+}
+
+
+
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 5rem;
+   
+
+}
+
+
+.at-item1 {
+    width: 20%; height:50%; background:url('./images/Einstein_Albert_Imagen.jpg') no-repeat; 
+    
+    animation-name: rotate-in-center;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-fill-mode: both;
+    position: absolute;
+    top: 7rem;
+    left: 60rem;
+    
+    background-size: 15rem;
+    
+        
+    /* shorthand
+    animation: rotate-in-center 1.2s linear 0s infinite normal both;*/
+}
+
+.at-item2 {
+    width: 20%; height:50%; background:url('./images/Einstein_Albert_Imagen.jpg') no-repeat; 
+    
+    animation-name: rotate-in-center2;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-fill-mode: both;
+    position: absolute;
+    top: 7rem;
+    right: 62rem;
+    background-size: 15rem;
+    
+        
+    /* shorthand
+    animation: rotate-in-center 1.2s linear 0s infinite normal both;*/
+}
+@keyframes rotate-in-center {
+        
+    0% {
+        transform:rotate(-359deg);
+        opacity:0;
+    }
+    100% {
+        transform:rotate(0);
+        opacity:1;
+    }
+}
+
+@keyframes rotate-in-center2 {
+        
+    0% {
+        transform:rotate(+359deg);
+        opacity:0;
+    }
+    100% {
+        transform:rotate(0);
+        opacity:1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.black:hover{
+
+
+    background-color: rgb(75, 71, 71);
+}
+
+
+.a{
+
+
+justify-content: flex-start;
+
+
+
+
+}
+.a,.b,.c,.d,.e{
+
+    display: flex;
+    width: 25rem;
+    height: 6rem;
+    justify-content:start;
+    
+
+
+}
+
+.b{
+
+
+
+
+}
+
+.c{
+
+
+
+}
+
+.d{
+
+
+}
+
+.e{
+
+display: flex;
+
+}
+
+.box{
+
+width: 6rem;
+height:6rem ;
+border: 1px solid black;
+
+
+}
+
+.reset{
+
+
+    width: 12rem;
+    border: 1px solid black;
+   
+}
+
+.arrow{
+
+ 
+}
+
+.divid{
+
+margin: 0;
+background-color: orange;
+color: azure;
+
+}
+
+.seven{
+
+
+
+}
+.eight{
+
+}
+
+.nine{
+
+
+}
+
+.ex{
+
+    background-color: orange;
+    color: azure;
+
+}
+
+.four{
+
+
+}
+
+.five{
+
+
+}
+
+.six{
+
+
+}
+.minuse{
+
+
+    background-color: orange;
+    color: azure;
+}
+.one{
+
+}
+.two{
+
+
+}
+
+
+.three{
+
+
+}
+
+.plus{
+background-color: orange;
+color: azure;
+
+}
+
+
+.zero{
+
+    position: absolute;
+    width: 18rem;
+
+}
+
+.equal{
+    background-color: orange;
+    color: azure;
+    position: absolute;
+    left: 18rem;
+    
+
+
+}
+
+.oranges:hover{
+
+background-color: rgb(238, 172, 49);
+color: azure;
+
+
+}
